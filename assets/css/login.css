@@ -1,4 +1,4 @@
-body{ background-image: url('../img/background.png'); background-size: fixed; color: #fff; }
+body{ background-image: url('../img/background.jpg'); background-size: fixed; color: #fff; }
 .login{ margin-top: 100px; }
 .login .card { background: rgba(0, 0, 0, 0.6); }
 .login label{ font-size: 16px; color: #ccc; }
