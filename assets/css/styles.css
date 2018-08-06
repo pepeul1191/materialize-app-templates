@@ -2,5 +2,7 @@
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{background-color: #9e9e9e !important;}
 [type="checkbox"]:checked+span:not(.lever):before{ border-right: 2px solid #9e9e9e; border-bottom: 1px solid #9e9e9e;}
 input.valid[type=password]:not(.browser-default), input[type=password]:not(.browser-default):focus:not([readonly]), input.valid[type=text]:not(.browser-default), input[type=text]:not(.browser-default):focus:not([readonly]),  textarea.materialize-textarea:focus:not([readonly]), textarea.materialize-textarea:not(.browser-default){ border-bottom: 1px solid #9e9e9e; box-shadow: 0 1px 0 0 #fdfdfd; color: #fff;}
-
+.primary{ background-color: var(--primary-color) !important; }
+.primary-text{ background-color: var(--white) !important; }
 input[type=text]:not(.browser-default):focus:not([readonly]) + label, textarea + label, textarea.materialize-textarea:focus:not([readonly]) + label {color: #5b5b5b;}
+.input-field { margin-top: 0.25rem; margin-bottom: 0.25rem; }

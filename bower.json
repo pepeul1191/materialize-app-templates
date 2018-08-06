@@ -23,6 +23,8 @@
     "tests"
   ],
   "dependencies": {
-    "materialize": "1.0.0-rc.2"
+    "jquery": "^3.2.1",
+    "materialize": "1.0.0-rc.2",
+    "font-awesome": "^4.7.0"
   }
 }

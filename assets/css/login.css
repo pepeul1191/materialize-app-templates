@@ -5,3 +5,7 @@ body{ background-image: url('../img/background.png'); background-size: fixed; co
 .login input{ font-size: 20px !important; color: #fff; }
 .login button:hover{ padding: 0px 40px; }
 input.valid[type=password]:not(.browser-default), input[type=password]:not(.browser-default):focus:not([readonly]), input.valid[type=text]:not(.browser-default), input[type=text]:not(.browser-default):focus:not([readonly]) { border-bottom: 1px solid #9e9e9e; box-shadow: 0 1px 0 0 #fdfdfd; color: #fff !important;}
+.fa{font-size: 200px;}
+.card .card-action { background-color: transparent; }
+i {color: #AAA; }
+.input-field .prefix.active { color: #FFF; }
