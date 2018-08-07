@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include dashboard_head.html %}
+<body class="grey lighten-3">
+  {% include dashboard_nav.html %}
+  {{ content }}
+  {% include dashboard.html %}
+  {% include dashboard_footer.html %}
+</body>
+</html>
